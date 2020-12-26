@@ -2,7 +2,7 @@ import os
 
 class Config(object):
     # get a token from @BotFather
-    TG_BOT_TOKEN = "1400450496:AAGpZvH95-n_KQ7x1RvuOGFK5wNepwbyoJw"
+    TG_BOT_TOKEN = "1464242685:AAEq8LEm6hD7Mnv9Ll6kxTqHn7JYiiJmixc"
     # The Telegram API things
     APP_ID = 2119350
     API_HASH ="8610b2e5dc11380f8b8005c9fcf8b3ed"
@@ -40,21 +40,21 @@ class Config(object):
     # add offensive API
     TG_OFFENSIVE_API = os.environ.get("TG_OFFENSIVE_API", None)
     CUSTOM_FILE_NAME = os.environ.get("CUSTOM_FILE_NAME", "")
-    LEECH_COMMAND = os.environ.get("LEECH_COMMAND", "leech@DSP_LEECHY_ROBOT")
-    YTDL_COMMAND = os.environ.get("YTDL_COMMAND", "ytdl@DSP_LEECHY_ROBOT")
+    LEECH_COMMAND = os.environ.get("LEECH_COMMAND", "leech@DSP_LEECHY_BOT")
+    YTDL_COMMAND = os.environ.get("YTDL_COMMAND", "ytdl@DSP_LEECHY_BOT")
     RCLONE_CONFIG = os.environ.get("RCLONE_CONFIG", "")
     DESTINATION_FOLDER = os.environ.get("DESTINATION_FOLDER", "Mirror Bot")
-    GLEECH_COMMAND = os.environ.get("GLEECH_COMMAND", "gleech@DSP_LEECHY_ROBOT")
+    GLEECH_COMMAND = os.environ.get("GLEECH_COMMAND", "gleech@DSP_LEECHY_BOT")
     INDEX_LINK = os.environ.get("INDEX_LINK", "")
-    TELEGRAM_LEECH_COMMAND_G = os.environ.get("TELEGRAM_LEECH_COMMAND_G", "tleech@DSP_LEECHY_ROBOT")
-    CANCEL_COMMAND_G = os.environ.get("CANCEL_COMMAND_G", "cancel@DSP_LEECHY_ROBOT")
-    GET_SIZE_G = os.environ.get("GET_SIZE_G", "getsize@DSP_LEECHY_ROBOT")
-    STATUS_COMMAND = os.environ.get("STATUS_COMMAND", "status@DSP_LEECHY_ROBOT")
-    SAVE_THUMBNAIL = os.environ.get("SAVE_THUMBNAIL", "savethumbnail@DSP_LEECHY_ROBOT")
-    CLEAR_THUMBNAIL = os.environ.get("CLEAR_THUMBNAIL", "clearthumbnail@DSP_LEECHY_ROBOT")
+    TELEGRAM_LEECH_COMMAND_G = os.environ.get("TELEGRAM_LEECH_COMMAND_G", "tleech@DSP_LEECHY_BOT")
+    CANCEL_COMMAND_G = os.environ.get("CANCEL_COMMAND_G", "cancel@DSP_LEECHY_BOT")
+    GET_SIZE_G = os.environ.get("GET_SIZE_G", "getsize@DSP_LEECHY_BOT")
+    STATUS_COMMAND = os.environ.get("STATUS_COMMAND", "status@DSP_LEECHY_BOT")
+    SAVE_THUMBNAIL = os.environ.get("SAVE_THUMBNAIL", "savethumbnail@DSP_LEECHY_BOT")
+    CLEAR_THUMBNAIL = os.environ.get("CLEAR_THUMBNAIL", "clearthumbnail@DSP_LEECHY_BOT")
     UPLOAD_AS_DOC = os.environ.get("UPLOAD_AS_DOC", "True")
-    PYTDL_COMMAND_G = os.environ.get("PYTDL_COMMAND_G", "pytdl@DSP_LEECHY_ROBOT")
+    PYTDL_COMMAND_G = os.environ.get("PYTDL_COMMAND_G", "pytdl@DSP_LEECHY_BOT")
     LOG_COMMAND = os.environ.get("LOG_COMMAND", "log")
-    CLONE_COMMAND_G = os.environ.get("CLONE_COMMAND_G", "gclone@DSP_LEECHY_ROBOT")
+    CLONE_COMMAND_G = os.environ.get("CLONE_COMMAND_G", "gclone@DSP_LEECHY_BOT")
     UPLOAD_COMMAND = os.environ.get("UPLOAD_COMMAND", "upload")
     RENEWME_COMMAND = os.environ.get("RENEWME_COMMAND", "renewme")
